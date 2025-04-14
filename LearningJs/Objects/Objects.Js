@@ -1,10 +1,8 @@
 const carBestBrands = {
     Toyota : "GT86",
     Benz:"S500",
-    BMW:"X4",
-    
+    BMW:"X4", 
 }
-
 console.log(carBestBrands.BMW)
 
 //? آبجکت ها میتوانند هرچیزی را در خود داشته باشند
