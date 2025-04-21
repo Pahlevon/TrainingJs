@@ -1,0 +1,1 @@
+module.exports = { MyName:"Reza" , Myfamily:"Maroof", Age:31}

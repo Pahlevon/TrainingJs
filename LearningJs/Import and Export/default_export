@@ -1,0 +1,5 @@
+//The Name doesnt Matter
+const GGWellPlayed = 98452255
+module.exports = GGWellPlayed
+
+//Now we Go To Import Js File
