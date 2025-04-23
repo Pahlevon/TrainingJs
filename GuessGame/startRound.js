@@ -8,7 +8,7 @@ console.log("Here's Your Question ! ")
 const specificQuestion = questions[roundNumber]
 console.log(specificQuestion.questions)
 gameState.rounds.push({
-          guesses:[],
+          forms:[],
           questions:specificQuestion
 })
 }

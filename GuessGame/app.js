@@ -3,6 +3,7 @@ const {startRound} = require("./startRound.js")
 const {makeGuess} = require("./makeGuess.js")
 const {addPlayer} = require("./players.js")
 const {removeLatestPlayer} = require("./players.js")
+const {gatherResults} = require("./gatherResults.js")
 
 
 const playerOne = "Reza"
@@ -30,6 +31,7 @@ startRound(0)
 makeGuess(0,playerOne,1969)
 makeGuess(0,playerTwo,1978)
 console.log(JSON.stringify(gameState,undefined,2))
-
+const firstRoundResults = gatherResults(0)
+console.log(JSON.stringify(firstRoundResults,undefined,2))
 
 

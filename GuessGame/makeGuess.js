@@ -6,7 +6,7 @@ const makeGuess = (roundNumber, playerName, guess) => {
                     throw new Error(`Round ${roundNumber} does not exist.`);
           }
 
-          gameState.rounds[roundNumber].guesses.push(
+          gameState.rounds[roundNumber].forms.push(
                     {
                               player: playerName,
                               guess: guess,
