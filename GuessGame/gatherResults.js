@@ -8,6 +8,12 @@ const gatherResults = (roundNumber) => {
     if (round.forms.lenth === 0 ) {
         throw new Error(`The Round with Number ${roundNumber} Has No Guesses`);
     }
+
+    for (let index = 0; index < round.forms.lenth; index++) {
+        const element = round.forms.lenth[index];
+        console.log(element)
+        
+    }
 }
 
 module.exports = {
