@@ -5,12 +5,8 @@ const { addPlayer } = require("./players.js")
 const { removeLatestPlayer } = require("./players.js")
 const { gatherResults } = require("./gatherResults.js")
 
-
 const playerOne = "Reza"
 const playerTwo = "Zahra"
-
-
-
 // console.log("Current Players",gameState.players)
 addPlayer(playerOne)
 addPlayer(playerTwo)
