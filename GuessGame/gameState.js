@@ -1,7 +1,6 @@
 const gameState = {
     gameName:"Our Amazing Guessing Game ! ",
     copyrightYear:2024,
-
     players: [],
     rounds: [],
 }

@@ -1,0 +1,11 @@
+Mobile = {
+    SmartPhone : "Galaxy S25 Ultra",
+    OldPhone : "Nokia 3310",
+    GodPhone : "Pray"
+}
+
+const KeysofMobile = Object.keys(Mobile)
+console.log(`The Keys are : ${KeysofMobile}`)
+
+const ValuesofMobile = Object.values(Mobile)
+console.log(`The Values are : ${ValuesofMobile}`)

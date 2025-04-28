@@ -10,7 +10,7 @@ const specificQuestion = questions[roundNumber]
 console.log(specificQuestion.Question)
 
 gameState.rounds.push({
-          forms:[],
+          forms:[roundNumber],
           questions:specificQuestion
 })
 }
