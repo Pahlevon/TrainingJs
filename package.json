@@ -1,0 +1,23 @@
+{
+  "name": "trainingjs",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Pahlevon/TrainingJs#readme",
+  "bugs": {
+    "url": "https://github.com/Pahlevon/TrainingJs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pahlevon/TrainingJs.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "run"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
+}
